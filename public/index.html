@@ -1,126 +1,149 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Melquisedeque Pereira Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/sass/main-1.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<meta name="description" content="Web site created using create-react-app" />
+	<link rel="apple-touch-icon" href="logo192.png" />
+	<!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+	<!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-code"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<p>Hi, my name is</p>
-								<h1>Melquisedeque Pereira</h1>
-								<p>I'm a full-stack web developer</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#about">About</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About me</h2>
-								<span class="image main"><img src="images/about.jpg" alt="" /></span>
-								<p>
-									Hi, my name is Melquisedeque and I'm a full-stack web developer. I'm a 21 year-old programmer with three years of work experience in the field. I'm also a portuguese ping-pong, chess and video game player with an interest in learning, strategy and economy.</p>
-							</article>
-
-						<!-- Work -->
-							<article id="work">
-								<h2 class="major">Work</h2>
-
-								<h3>
-									<a href="https://github.com/melquip/responsive-web-design-I/tree/melquisedeque-pereira" target="_blank">
-										Lambda School - Responsive Design I
-									</a>
-								</h3>
-								
-								<span class="image main"><img src="images/work-rd1.jpg" alt="" /></span>
-								<p>A responsive design Lambda School project in which I created an adaptive version of the "Grea Idea" design by working through design mock ups for desktop, tablet, and mobile devices.</p>
-
-								<h3>
-									<a href="https://github.com/melquip/Sprint-Challenge--User-Interface/tree/melquisedeque-pereira" target="_blank">
-										Lambda School - User Interface Sprint #1
-									</a>
-								</h3>
-								<span class="image main"><img src="images/work-ui3.jpg" alt="" /></span>
-								<p>The first week's Sprint project at Lambda School where I applied all the concepts learned over the week. This sprint explored Semantic HTML, CSS Fundamentals, the CSS Flexbox Module, and Git by tasking me to create a multi page website and solve the missing HTML elements as well as CSS specificity problems.</p>
-
-
-							</article>
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright">&copy; Melquisedeque Pereira. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
-
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+	<link rel="stylesheet" href="assets/sass/main-1.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<title>Melquisedeque Pereira Portfolio</title>
+</head>
+<body class="is-preload">
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root"></div>
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-code"></span>
 			</div>
+			<div class="content">
+				<div class="inner">
+					<p>Hi, my name is</p>
+					<h1>Melquisedeque Pereira</h1>
+					<p>I'm a full-stack web developer</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 
-		<!-- BG -->
-			<div id="bg"></div>
+		<!-- Main -->
+		<div id="main">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- About -->
+			<article id="about">
+				<h2 class="major">About me</h2>
+				<span class="image main"><img src="images/about.jpg" alt="" /></span>
+				<p>
+					Hi, my name is Melquisedeque and I'm a full-stack web developer. I'm a 21 year-old programmer with
+					three years of work experience in the field. I'm also a portuguese ping-pong, chess and video game
+					player with an interest in learning, strategy and economy.</p>
+			</article>
 
-	</body>
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">Work</h2>
+
+				<h3>
+					<a href="https://github.com/melquip/responsive-web-design-I/tree/melquisedeque-pereira"
+						target="_blank">
+						Lambda School - Responsive Design I
+					</a>
+				</h3>
+
+				<span class="image main"><img src="images/work-rd1.jpg" alt="" /></span>
+				<p>A responsive design Lambda School project in which I created an adaptive version of the "Grea Idea"
+					design by working through design mock ups for desktop, tablet, and mobile devices.</p>
+
+				<h3>
+					<a href="https://github.com/melquip/Sprint-Challenge--User-Interface/tree/melquisedeque-pereira"
+						target="_blank">
+						Lambda School - User Interface Sprint #1
+					</a>
+				</h3>
+				<span class="image main"><img src="images/work-ui3.jpg" alt="" /></span>
+				<p>The first week's Sprint project at Lambda School where I applied all the concepts learned over the
+					week. This sprint explored Semantic HTML, CSS Fundamentals, the CSS Flexbox Module, and Git by
+					tasking me to create a multi page website and solve the missing HTML elements as well as CSS
+					specificity problems.</p>
+
+
+			</article>
+
+			<!-- Contact -->
+			<article id="contact">
+				<h2 class="major">Contact</h2>
+				<form method="post" action="#">
+					<div class="fields">
+						<div class="field half">
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input type="text" name="email" id="email" />
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="4"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+				</ul>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; Melquisedeque Pereira. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
