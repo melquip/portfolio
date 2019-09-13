@@ -3,7 +3,7 @@ import { App as AppCSS } from './AppStyles';
 
 function App({ env }) {
 	return (
-		<>
+		<AppCSS>
 			<header>
 
 			</header>
@@ -13,7 +13,7 @@ function App({ env }) {
 			<footer>
 			
 			</footer>
-		</>
+		</AppCSS>
 	);
 }
 
