@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-	  "build": "serve -s build"
+	  "build": ""
   },
   "repository": {
     "type": "git",
