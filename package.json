@@ -3,16 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-	  "build": "echo \"Finished build\""
+	  "build": "serve -s build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melquip/portfolio.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/melquip/portfolio/issues"
-  },
-  "homepage": "https://github.com/melquip/portfolio#readme"
+  "author": "Melquisedeque Pereira"
 }
